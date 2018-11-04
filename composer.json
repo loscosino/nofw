@@ -1,0 +1,20 @@
+{
+    "name": "maria/elo",
+    "authors": [
+        {
+            "name": "Maria Nedzinska",
+            "email": "maria.nedzinska@mint.net.pl"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ramsey/uuid": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
